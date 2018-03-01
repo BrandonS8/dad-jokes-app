@@ -14,7 +14,7 @@ This is a dad joke app, It has the following features:
 
 ## User Stories
 
-`As a____, I want to ____, so that I can ____`
+`As a ____, I want to ____, so that I can ____`
 
 * As a user, I want to create and save a joke, so that I can keep track of all my super witty and hilarious jokes
 * As a user, I want to edit a joke, so that I can fix it if it has errors or is not funny enough

@@ -1,0 +1,23 @@
+{
+  "name": "dad-jokes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonS8/dad-jokes-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonS8/dad-jokes-app/issues"
+  },
+  "homepage": "https://github.com/BrandonS8/dad-jokes-app#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
