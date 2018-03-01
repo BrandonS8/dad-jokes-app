@@ -1,6 +1,12 @@
-<h1>Jokes</h1>
-
-{{#each jokes}}
-<p>{{title}}</p>
-<p>{{punchline}}</p>
-<br> {{/each}}
+<section class="row">
+  {{#each jokes}}
+  <a href="/jokes/{{this.id}}" class="col s6 card horizontal">
+    <div class="card-stacked">
+      <div class="card-content">
+        <p>{{title}}</p>
+        <p>{{punchline}}</p>
+      </div>
+    </div>
+  </a>
+  {{/each}}
+</section>
