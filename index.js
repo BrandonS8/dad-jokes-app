@@ -1,12 +1,16 @@
 // require all our dependencies
 const express = require('express')
-
+const hbs = require('hbs')
 // create and setup express app
 const app = express()
 
+// configure express to use hbs
+app.set('view engine', 'hbs')
+
 // define a route
 app.get('/', (req, res) => {
-  res.send('hello world')
+  // render the index view
+  res.render('index')
 })
 
 // start the server
